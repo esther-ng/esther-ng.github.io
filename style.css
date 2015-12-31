@@ -1,0 +1,116 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+p {
+    color: orange;
+    font-family: arial;
+    text-align: center;
+}
+ul {
+    color: green;
+    font-family: arial;
+    line-height: 120%;
+}
+h1 {
+    letter-spacing: +2px;
+    text-align: center;
+}
+h2 {
+    color: teal;
+    font-variant: small-caps;    
+}
+h3 {
+    color: grey; 
+    text-decoration: underline;
+}
+#blog {
+    padding: 5px;
+    border: 3px solid teal;
+    background: grey;
+}
+.first {
+    padding: 5px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+  	border: 2px dotted teal;
+    background: white;
+}
+#college-years {
+    color: navy;
+}
+#post-college {
+ 	background: white;
+    padding: 5px;
+    width: 150px;
+    border: 2px dotted teal;
+    float: left;
+    margin-right: 30px;
+}
+.post-college {
+	color: purple;
+}
+#most-recent{
+    float: left;
+    border: 2px dotted teal;
+    background: white; 
+    padding: 5px;
+    width: 150px;
+}
+.most-recent {
+    color: maroon;
+}
+#modal-popup {
+    overflow: auto;
+    background: teal;
+	z-index: 99;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}

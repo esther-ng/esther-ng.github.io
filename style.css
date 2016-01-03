@@ -159,3 +159,84 @@ h3 {
     position: relative;
     top: 500px;
 }
+
+.bio-bloc {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 3px 0px;
+    float: right;
+    padding: 15px;
+    width: 250px;
+    position: relative;
+    top: -75px;
+    overflow: auto;
+}
+
+#resume {
+    backgroud: url("img/Skillcrush_Computer.jpg");
+}
+
+#name {
+    font-size: 36px;
+    font-type: courier;
+    font-weight: bold;
+}
+
+.resume {
+    background: url("img/Skillcrush_Computer.jpg") repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+
+#title {
+    background: rgb(213,209,199);
+    border-radius: 0px 0px 0px 3px;
+    color: white;
+    font-family: serif;
+    padding: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+p.bio {
+    text-align: left;
+    color: black;
+    padding: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-style: serif;
+}
+
+
+
+ul#social {
+    margin: 0px;
+    padding: 0px;
+}
+
+#instagram {
+    background: url("img/social.png") no-repeat 0 0;
+}
+#instagram a:hover{
+    background: url("img/social.png") 0px -32px;
+}
+#instagram a:hover{
+    background: url("img/social.png") 0px -32px;
+}
+
+#social li, #social a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+#twitter {
+    background: url("img/social.png") -34px 0px;
+}
+#tiwtter a:hover{
+    background: url("img/social.png") -34, -32px;
+}
+
+#dribbble {
+     background: url("img/social.png") -66px 0px;
+}
+#dribbble a:hover{
+     background: url("img/social.png") -66px -32px;
+}

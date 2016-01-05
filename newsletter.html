@@ -6,34 +6,66 @@
 	<title>Newsletter</title>
 	<link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Noticia+Text' rel='stylesheet' type='text/css'>
-    <img src='img/header.png' style="position: absolute; left: 50%; margin-left: -227px; top: -70px;"/>
-    </head>
-    <body class=newsletter>
-        <div class=newsletter-text>Whether you're conquering Tumblr, befriending CSS, or just getting a better handle of how the web works, Skillcrush has a path for you.</div>    
-            <div class=newsletter-form>
+</head>
+<body class=newsletter>
+    <img src=img/header.png style="position: absolute; left: 50%; margin-left: -277px; top: 30px;"/>
+    <div class=newsletter-text>Whether you're conquering Tumblr, befriending CSS, or just getting a better handle of how the web works, Skillcrush has a path for you.</div>    
+        <div class=newsletter-form>
             <div class=sign-up>Sign up for our newsletter, launching April 1st.</div>
+            <div id="days">30 DAYS TO A WEB-SAVVIER YOU</div> 
+            <div id="sign-up">
+
+                    <form action="action_page.php">
+                            <input id=email type="email" name="email" value="Your E-mail Address">
+                            <input id="sign-button" type="submit" value="SIGN UP"></form>
             </div>
+        </div>
 <!--This is the blog bar--> 
         <div class=blog-posts>
+            <div class=blog-title>Our Recent Blog Posts</div>
             <div id=blog-content>
-                <div class=blog-title>Our Recent Blog Posts</div>
-                <div id=post1>
-                    <div class=post-title><h5>Skillcrush, a site for all the ladies who want to learn tech</h5></div>
-                    <div class=post-time>03.09.12 - by Adda Birnir</div>
-                    <div class=post-summary>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. <a href=http://skillcrush.com>READ MORE</a>
+                <div id="post1">
+                    <div class="post-title"><h5>Skillcrush, a site for all the ladies who want to learn tech</h5></div>
+                    <div class="post-time">03.09.12 - by Adda Birnir</div>
+                    <div class="post-summary">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. <a href=http://skillcrush.com>READ MORE</a>
                 </div>
             </div>
-                <div id=post2>
-                    <div class=post-title><h5>Women in tech naecenas faucibus mollis interdum</h5></div>
-                    <div class=post-time>03.09.12 - by Adda Birnir</div>
-                    <div class=post-summary>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risas eget urna mollis ornare vel eu leo.<a href=http://skillcrush.com>READ MORE</a>
+                <div id="post2">
+                    <div class="post-title"><h5>Women in tech naecenas faucibus mollis interdum</h5></div>
+                    <div class="post-time">03.09.12 - by Adda Birnir</div>
+                    <div class="post-summary">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risas eget urna mollis ornare vel eu leo. <a href=http://skillcrush.com>READ MORE</a>
+                </div>
+                </div>
+                <div id="post3">
+                    <div class="post-title"><h5>Inforgraphics: The World Wide Web v.s Girls</h5></div>
+                    <div class="post-time">03.09.12 - by Adda Birnir</div>
+                    <div class="post-summary">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur. <a href="http://skillcrush.com">READ MORE</a></div>
                 </div>
             </div>
-                <div id=post3>
-                    <div class=post-title><h5>Inforgraphics: The World Wide Web v.s Girls</h5></div>
-                    <div class=post-time>03.09.12 - by Adda Birnir</div>
-                    <div class=post-summary>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur.<a href=http://skillcrush.com>READ MORE</a>
-                </div>
-            </div>
-            </div>
+        </div>
+<!--This is the About-Contact-Form-->
+    <div class=contact-bar>
+        <div id=contact-content>
+        <div class=about-container>
+            <h6>About Skillcrush</h6>
+            <p>Skillcrush is eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p><br><br>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+        <div class=contact-container>
+            <h6>Get in Touch</h6>
+            <form action="action_page.php">
+                <fieldset>
+                <input class=form type="text" name="name" value="Name">                 
+                <input class=form type="email" name="email" value="E-mail Address">
+                <input class=form-reason type="text" name="reason" value="Reason of contact">
+                <textarea class=form-message type="textarea" name="msg">Type your message here.</textarea>
+                <input id="submit" type="submit" value="Send Message">
+                </fieldset>
+            </form>
+        </div>
+        </div>
+        </div>
+        <div class="footer"><span id=copyright>© 2012 Skillcrush. All Rights Reserved. Made in NYC.</span>
+        </div>
     </body>
+</html>

@@ -47,7 +47,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 input, select { vertical-align: middle; }
 @font-face{
     font-family: wisdom;
-    src: url("fonts/wisdom script.otf")
+    src: url('fonts/wisdom script.otf')
 }
 #menu{
     background: white;

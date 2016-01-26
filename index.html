@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
       <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'/>
@@ -16,6 +16,18 @@
     </div>
     </head>
 <body>
-Blogpost feed will go here.
+    <button id="modal-show">Join Mailing List</button>
+    <div id="modal-container">
+        <section id="modal-box">
+            <button id="modal-hide">x</button>
+            <h2 id="newsletter-header">Sign up for my email list!</h2>
+            <form id="newsletter-signup" action="#" method="post" accept-charset="utf-8">
+            <input type="email" name="email" value="" placeholder="Your email">
+            <input type="submit" value="Sign up">
+            </form>
+        </section>
+    </div>
+    <p>Blogpost feed will go here.</p>
+<script src="javascripts/main.js"></script>
 </body>
 </html>

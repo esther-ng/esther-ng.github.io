@@ -56,6 +56,12 @@ input, select { vertical-align: middle; }
     left: 0;
     width: 100%;
 }
+body {
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
 body.default{
     position: relative;
     top: 100px;
@@ -64,6 +70,49 @@ body.default{
     background-position-y: 70px;
     background-size: cover;
     background-attachment: fixed;
+}
+#modal-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+ 
+#modal-box {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 5px solid #454545;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 480px;
+}
+ 
+#modal-show {
+  background: teal;
+  border-radius: 5px;
+  border: 4px outset teal;
+  color: white;
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+ 
+#modal-hide {
+  background: white;
+  border-radius: 15px;
+  color: #454545;
+  display: block;
+  float: right;
+  font-family: monospace;
+  font-size: 20px;
+  margin-right: -17px;
+  position: relative;
+  top: -18px;
+  width: 30px;
 }
 p {
     font-family: georgia;

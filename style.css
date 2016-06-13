@@ -1,4 +1,4 @@
-/* Cross Browser Compatability CSS */
+/* Cross Browser Compatibility CSS */
 /**
  * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
@@ -224,7 +224,7 @@ h3 {
 }
 
 #resume {
-    backgroud: url("img/Skillcrush_Computer.jpg");
+    block: url("img/Skillcrush_Computer.jpg");
 }
 
 #name {
